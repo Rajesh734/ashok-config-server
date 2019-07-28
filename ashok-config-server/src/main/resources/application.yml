@@ -1,4 +1,5 @@
-
+server:
+  port: 5000
 spring:
   cloud:
     config:
@@ -10,8 +11,6 @@ spring:
           uri: https://github.com/Rajesh734/ashok-config-repo
           search-paths:
           - '{application}'
-          username: Rajesh734@gmail.com
-          password: #SECRET GOES HERE
           order: 0
         encrypt:
           enabled: true
