@@ -1,0 +1,21 @@
+
+spring:
+  cloud:
+    config:
+      enabled: true
+      name: ashok-config-server
+      fail-fast: true
+      server:
+        git:
+          uri: https://github.com/Rajesh734/ashok-config-repo
+          search-paths:
+          - '{application}'
+          username: Rajesh734@gmail.com
+          password: #SECRET GOES HERE
+          order: 0
+        encrypt:
+          enabled: true
+  security:
+    user:
+      name: Ashok
+      password: '{cipher}f63e0ff855def82334e49f7ce89393cb5c6f930b5cd5676adf70e58fccdc99ea'

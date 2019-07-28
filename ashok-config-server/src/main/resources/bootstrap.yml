@@ -1,0 +1,5 @@
+#
+# This key should be secured safe.
+#
+encrypt:
+  key: TEST_KEY
