@@ -8,7 +8,7 @@ spring:
       fail-fast: true
       server:
         git:
-          uri: https://github.com/Rajesh734/ashok-config-repo
+          uri: https://github.com/AshokMano/ashok-config-repo
           search-paths:
           - '{application}'
           order: 0
@@ -17,4 +17,4 @@ spring:
   security:
     user:
       name: Ashok
-      password: '{cipher}f63e0ff855def82334e49f7ce89393cb5c6f930b5cd5676adf70e58fccdc99ea'
+      password: '{cipher}9fa0b503e82c34ceb0cc7d73ba052e3281599beeba4a60f9d4f3b67cec4fb207'
